@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://gabillan.f5.si/sitemap.xml

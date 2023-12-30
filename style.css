@@ -1,0 +1,99 @@
+html {
+    overflow-x: hidden;
+    animation: 2s fadeIn;
+}
+body {
+    overflow-x: hidden;
+    color: #fff;
+    background: rgb(255,253,0);
+    background: linear-gradient(90deg, rgba(255,253,0,0.9938837920489296) 0%, rgba(255,80,0,1) 50%, rgba(178,0,255,1) 100%);
+    font-family: 'Dosis',Sans-Serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(50,50,50,.4);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,.1);
+    z-index: 9999;
+}
+header h1 {
+    animation: 2s tikatika infinite;
+}
+main {
+    margin-top: 120px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+.kasaneru {
+    position: relative;
+}
+.welcome {
+    background-color: rgba(0,0,0,.5);
+    margin: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap
+}
+.robotimage {
+    animation: 3s zoomIn;
+}
+.aaa {
+    padding: 20px;
+    background-color: rgba(255,255,255,.2);
+    border: 1.5px solid rgba(255,255,255,.4);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 2px 2px 5px rgba(0,0,0,.1);
+}
+hr {
+    border: 0.5px solid #fff;
+}
+a {
+    color: #fff;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(50,50,50,0.9);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255,255,255,0.1);
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes zoomIn {
+    from {
+        scale: 0;
+    }
+    to {
+        scale: 1;
+    }
+}
+@keyframes tikatika {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
